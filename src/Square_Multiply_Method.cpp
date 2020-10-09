@@ -8,7 +8,6 @@ using namespace std;
     6 / 2 = 3 + 0   square
     3 / 2 = 1 + 1   multiply
 */  
-
 ll get_power(int n, int k){
     bool bin[64];
     int i = 0; 
