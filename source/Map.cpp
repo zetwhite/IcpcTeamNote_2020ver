@@ -28,10 +28,17 @@ int main(void){
     for(iter = m.begin(); iter != m.end(); iter++){
         cout << "[" << (*iter).first << ", " << (*iter).second << "]" << " " ;
     }
+
+    //find 
+    if(m.find(40) != m.end()) {
+        cout << endl << "find!" << endl; 
+        cout << m.find(40)->second << endl; 
+        m[40] = "updated!!"; 
+    }
+    else{
+        cout << "not found" << endl; 
+    }
     
     
     return 0;    
 }
-
-
-출처: https://blockdmask.tistory.com/87?category=249379 [개발자 지망생]

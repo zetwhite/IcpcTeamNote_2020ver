@@ -47,5 +47,3 @@ int main(void){
     
     return 0;    
 }
-
-출처: https://blockdmask.tistory.com/79?category=249379 [개발자 지망생]
